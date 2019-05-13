@@ -31,5 +31,5 @@ def selective_tweet_shortener(str)
 end
 
 def shortened_tweet_truncator(str)
-  puts "#{str[0..140]}..."
+  puts "#{str[0..139]}..."
 end
