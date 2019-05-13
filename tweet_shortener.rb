@@ -24,8 +24,7 @@ def word_substituter(str)
 end
 
 def bulk_tweet_shortener(arr)
-  str.to_a
-  dictionary.keys
+  arr.join(" ")
   word_substituter()
   puts 
 end
