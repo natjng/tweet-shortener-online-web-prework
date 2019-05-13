@@ -16,6 +16,7 @@ def word_substituter(str)
     w = dictionary[w.downcase]
   end.join(" ")
 end
+end
 
 def bulk_tweet_shortener(arr)
   str.to_a
