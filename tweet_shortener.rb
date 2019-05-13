@@ -12,7 +12,7 @@ end
 
 def word_substituter(str)
   str.split.collect do |w|
-  if dictionary
+  if dictionary.keys
   end
   dictionary.keys
 end
