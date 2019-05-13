@@ -21,3 +21,5 @@ def bulk_tweet_shortener(arr)
   word_substituter()
   puts 
 end
+
+def 
