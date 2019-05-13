@@ -13,7 +13,7 @@ end
 def word_substituter(str)
   str.split.collect do |w|
   if dictionary.keys.include?(w.downcase)
-    w = dictionary()
+    w = dictionary[w.]
   end
   dictionary.keys
 end
