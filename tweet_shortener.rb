@@ -1,5 +1,5 @@
 def dictionary
-  w_and_s = {
+  dictionary = {
     "hello" => 'hi',
     "to, two, too" => '2',
     "for, four" => '4',
@@ -11,5 +11,11 @@ def dictionary
 end
 
 def word_substituter(str)
-  
+  str.to_a
+  dictionary.keys
+end
+
+def word_substituter(str)
+  str.to_a
+  dictionary.keys
 end
