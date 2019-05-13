@@ -15,7 +15,9 @@ def word_substituter(str)
   dictionary.keys
 end
 
-def word_substituter(str)
+def bulk_tweet_shortener(arr)
   str.to_a
   dictionary.keys
+  word_substituter()
+  puts 
 end
