@@ -11,7 +11,7 @@ def dictionary
 end
 
 def word_substituter(str)
-  str.split
+  str.split.collect 
   dictionary.keys
 end
 
